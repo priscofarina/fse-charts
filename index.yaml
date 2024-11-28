@@ -3,7 +3,7 @@ entries:
   it-fse-gtw-rules-manager:
   - apiVersion: v2
     appVersion: "55452"
-    created: "2024-11-27T17:22:21.817268946+01:00"
+    created: "2024-11-28T10:49:42.062000311+01:00"
     description: servizio del Fascicolo Sanitario Elettronico 2.0
     digest: 7d5c43ebb8f17bbe3abdcfb08c4854a3962d5cb59a1b595ad14486fe9ff7162e
     name: it-fse-gtw-rules-manager
@@ -12,10 +12,10 @@ entries:
     - it-fse-gtw-rules-manager/it-fse-gtw-rules-manager-1.5.0.tgz
     version: 1.5.0
   - apiVersion: v2
-    appVersion: "55449"
-    created: "2024-11-27T17:22:21.81665634+01:00"
+    appVersion: "87512"
+    created: "2024-11-28T10:49:42.061682308+01:00"
     description: servizio del Fascicolo Sanitario Elettronico 2.0
-    digest: c8f6e45dfcc310d478cc7af27d0b75b596ae9bbc8467c2a2c96802f53fe6b38b
+    digest: d48c36226dae97d1ce2a67a3c0b9616dbbe7b7920c2cc4db5ace925df6daf788
     name: it-fse-gtw-rules-manager
     type: application
     urls:
@@ -23,7 +23,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: "55442"
-    created: "2024-11-27T17:22:21.815922833+01:00"
+    created: "2024-11-28T10:49:42.061347305+01:00"
     description: servizio del Fascicolo Sanitario Elettronico 2.0
     digest: d89d554cefadb0afb35e82549c4f68fcb046883cce546b55778f6e733c394ff2
     name: it-fse-gtw-rules-manager
@@ -33,7 +33,7 @@ entries:
     version: 1.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-27T17:22:21.815268726+01:00"
+    created: "2024-11-28T10:49:42.060990001+01:00"
     description: servizio del Fascicolo Sanitario Elettronico 2.0
     digest: 1791f35cc1cdf9333a3c5877976544fcb29dd7567cefbeff20fb0118076d4900
     name: it-fse-gtw-rules-manager
@@ -41,4 +41,4 @@ entries:
     urls:
     - it-fse-gtw-rules-manager/it-fse-gtw-rules-manager-1.1.0.tgz
     version: 1.1.0
-generated: "2024-11-27T17:22:21.814478019+01:00"
+generated: "2024-11-28T10:49:42.060501096+01:00"
