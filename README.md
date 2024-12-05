@@ -77,7 +77,7 @@ helm fetch <nome-repo>/<nome-chart> --version <versione-chart>
 ```
 
 Example:
-**To download the 0.1.0 version listed from the search command for the it-fse-gtw-rules-manager:**
+**To download the 0.1.0 version listed from the search command for the it-fse-gtw-rules-manager service:**
 ```bash
 helm fetch fse/it-fse-gtw-rules-manager --version 0.1.0
 ```
