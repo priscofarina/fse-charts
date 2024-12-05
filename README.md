@@ -87,16 +87,16 @@ Questo comando scarica il pacchetto che potrà essere utilizzato successivamente
 ---
 ## Guida all'installazione del servizio:
 
-[*it-fse-gtw-config*](it-fse-gtw-config/installation-guide.md)<br>
-[*it-fse-gtw-rules-manager*](it-fse-gtw-rules-manager/installation-guide.md)<br>
-[*it-fse-gtw-dispatcher*](it-fse-gtw-dispatcher/installation-guide.md)<br>
-[*it-fse-gtw-validator*](it-fse-gtw-validator/installation-guide.md)<br>
-[*it-fse-gtw-fhir-mapping-engine*](it-fse-gtw-fhir-mapping-engine/installation-guide.md)<br>
-[*it-fse-gtw-indexer*](it-fse-gtw-indexer/installation-guide.md)<br>
-[*it-fse-gtw-ini-client*](it-fse-gtw-ini-client/installation-guide.md)<br>
-[*it-fse-gtw-garbage*](it-fse-gtw-garbage/installation-guide.md)<br>
-[*it-fse-gtw-status-check*](it-fse-gtw-status-check/installation-guide.md)<br>
-[*it-fse-gtw-status-manager*](it-fse-gtw-status-manager/installation-guide.md)<br>
+1. [*it-fse-gtw-config*](it-fse-gtw-config/installation-guide.md)<br>
+2. [*it-fse-gtw-rules-manager*](it-fse-gtw-rules-manager/installation-guide.md)<br>
+3. [*it-fse-gtw-dispatcher*](it-fse-gtw-dispatcher/installation-guide.md)<br>
+4. [*it-fse-gtw-validator*](it-fse-gtw-validator/installation-guide.md)<br>
+5. [*it-fse-gtw-fhir-mapping-engine*](it-fse-gtw-fhir-mapping-engine/installation-guide.md)<br>
+6. [*it-fse-gtw-indexer*](it-fse-gtw-indexer/installation-guide.md)<br>
+7. [*it-fse-gtw-ini-client*](it-fse-gtw-ini-client/installation-guide.md)<br>
+8. [*it-fse-gtw-garbage*](it-fse-gtw-garbage/installation-guide.md)<br>
+9. [*it-fse-gtw-status-check*](it-fse-gtw-status-check/installation-guide.md)<br>
+10. [*it-fse-gtw-status-manager*](it-fse-gtw-status-manager/installation-guide.md)<br>
 ---
 
 ## Verifica le Risorse create
