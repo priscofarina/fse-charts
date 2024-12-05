@@ -1,3 +1,7 @@
+# Multilanguage README Pattern
+[![it](https://img.shields.io/badge/lang-en-red.svg)](README.md)
+
+
 # Fascicolo Sanitario 2.0
 
 # Services to be Installed
