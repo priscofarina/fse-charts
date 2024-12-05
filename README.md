@@ -69,7 +69,6 @@ helm fetch repo fse/it-fse-gtw-rules-manager --versions
 helm repo update fse
 ```
 
-
 **Per scaricare una versione specifica:**
 ```bash
 helm fetch <nome-repo>/<nome-chart> --version <versione-chart> 
@@ -108,7 +107,6 @@ Questo comando scarica il pacchetto che potrà essere utilizzato successivamente
 ```bash
 kubectl get pods
 ```
-
 Esempio di output:
 
 | NAME                                      | READY | STATUS  | RESTARTS | AGE |
@@ -143,12 +141,7 @@ Esempio di output:
 kubectl get secrets
 ```
 
-```bash
-kubectl get secrets
-```
-
 Esempio di output:
-
 
 | NAME                     | TYPE                                | DATA | AGE  |
 |--------------------------|-------------------------------------|------|------|
