@@ -37,6 +37,7 @@ The secret will store the **docker-server**, **docker-username**, and **docker-p
 **--docker-password**=userPassword: The password associated with the specified Docker username (userPull). Replace userPassword with the actual password or access token.
 
 **Example of usage:**<br>
+**TO NOTICE:** <br>
 **The azregdevops secret will be used in the installation phase, but you can replace this value with the value you have chosen in the step of secret creation**
 
 ```bash
