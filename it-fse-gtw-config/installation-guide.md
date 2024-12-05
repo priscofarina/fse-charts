@@ -40,7 +40,7 @@ helm upgrade --install it-fse-gtw-config it-fse-gtw-config-0.1.0.tgz --set "imag
 >REVISION: 1  
 >TEST SUITE: None
 
-# Remove the service:
+## Remove the service:
 To remove the service that has been installed, run the following command:
 
 ```bash
@@ -48,6 +48,26 @@ helm delete it-fse-gtw-config
 ```
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Rules Manager
 
