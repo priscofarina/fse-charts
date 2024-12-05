@@ -62,14 +62,14 @@ To upgrade or install the service:
 helm upgrade --install it-fse-gtw-config it-fse-gtw-config-0.1.0.tgz --set "imagePullSecrets[0].name=azregdevops"
 ```
 > Output
-Release "it-fse-gtw-rules-manager" does not exist. Installing it now.
+>Release "it-fse-gtw-rules-manager" does not exist. Installing it now.
 
-- **NAME:** it-fse-gtw-config
-- **LAST DEPLOYED:** Fri Nov 29 11:05:42 2024  
-- **NAMESPACE:** default  
-- **STATUS:** deployed  
-- **REVISION:** 1  
-- **TEST SUITE:** None
+>- **NAME:** it-fse-gtw-config
+>- **LAST DEPLOYED:** Fri Nov 29 11:05:42 2024  
+>- **NAMESPACE:** default  
+>- **STATUS:** deployed  
+>- **REVISION:** 1  
+>- **TEST SUITE:** None
 
 To delete:
 
@@ -94,14 +94,13 @@ To upgrade or install the service:
 helm upgrade --install it-fse-gtw-rules-manager it-fse-gtw-rules-manager-0.1.0.tgz --set "imagePullSecrets[0].name=azregdevops"
 ```
 > Output
-Release "it-fse-gtw-rules-manager" does not exist. Installing it now.
-
-- **NAME:** it-fse-gtw-rules-manager  
-- **LAST DEPLOYED:** Fri Nov 29 11:05:42 2024  
-- **NAMESPACE:** default  
-- **STATUS:** deployed  
-- **REVISION:** 1  
-- **TEST SUITE:** None  
+>Release "it-fse-gtw-rules-manager" does not exist. Installing it now.
+>- **NAME:** it-fse-gtw-rules-manager  
+>- **LAST DEPLOYED:** Fri Nov 29 11:05:42 2024  
+>- **NAMESPACE:** default  
+>- **STATUS:** deployed  
+>- **REVISION:** 1  
+>- **TEST SUITE:** None  
 
 To delete:
 
@@ -125,14 +124,13 @@ To upgrade or install the service:
 helm upgrade --install it-fse-gtw-dispatcher it-fse-gtw-dispatcher-0.1.0.tgz --set "imagePullSecrets[0].name=azregdevops"
 ```
 > Output
-Release "it-fse-gtw-dispatcher" does not exist. Installing it now.
-
-- **NAME:** it-fse-gtw-dispatcher
-- **LAST DEPLOYED:** Fri Nov 29 11:05:42 2024  
-- **NAMESPACE:** default  
-- **STATUS:** deployed  
-- **REVISION:** 1  
-- **TEST SUITE:** None
+>Release "it-fse-gtw-dispatcher" does not exist. Installing it now.
+>- **NAME:** it-fse-gtw-dispatcher
+>- **LAST DEPLOYED:** Fri Nov 29 11:05:42 2024  
+>- **NAMESPACE:** default  
+>- **STATUS:** deployed  
+>- **REVISION:** 1  
+>- **TEST SUITE:** None
 
 To delete:
 
