@@ -1,11 +1,11 @@
-# How to Install the it-fse-gtw-config service
+# Come Installare il Servizio it-fse-gtw-config
 
-## Create the ConfigMap
+## Creazione della ConfigMap
 
-Before installing the **it-fse-gtw-config-cm** service, you need to create a ConfigMap that contains the required configuration for the service. <br>
-This allows the service to use custom settings or environment variables needed during installation and runtime.
+Prima di installare il servizio **it-fse-gtw-config-cm**, è necessario creare un ConfigMap che contenga la configurazione richiesta per il servizio. <br>
+Questo permette al servizio di utilizzare impostazioni personalizzate o variabili d'ambiente necessarie durante l'installazione e l'esecuzione.
 
-To create the configMap named **it-fse-gtw-config-cm** in the Kubernetes cluster required from the service:
+Per creare la ConfigMap chiamata **it-fse-gtw-config-cm** nel cluster Kubernetes richiesto dal servizio è necessario eseguire il seguente comando: <br>
 
 ```bash
 kubectl create configmap it-fse-gtw-config-cm --from-file=application.properties=config\application.properties
@@ -13,24 +13,25 @@ kubectl create configmap it-fse-gtw-config-cm --from-file=application.properties
 *Output:*
 >configmap/it-fse-gtw-config-cm created
 
-or 
-Verify the ConfigMap has been created successfully by running:
+
+Oppure verifica che la ConfigMap sia stato creata correttamente eseguendo:
 
 ```bash
 kubectl get configmap it-fse-gtw-config-cm
 ```
 
-## Install the Service
-Once the ConfigMap has been created, you can install the it-fse-gtw-config itself.
+## Installazione del Servizio
+Una volta creato la ConfigMap, puoi procedere con l'installazione del servizio **it-fse-gtw-config**
 
-To upgrade or install the service:
+Per aggiornare o installare il servizio:
 
-1. Download the Helm chart for the service either by using the helm fetch command or by directly retrieving the service from the repository.
+1. Scarica il chart Helm per il servizio utilizzando il comando helm fetch oppure recuperando direttamente il servizio dal repository.
 
-2. Upgrade or Install the service:
+2. Aggiorna o installa il servizio:
 ```bash
 helm upgrade --install it-fse-gtw-config it-fse-gtw-config-0.1.0.tgz --set "imagePullSecrets[0].name=azregdevops"
 ```
+
 *Output:*
 >Release "it-fse-gtw-rules-manager" does not exist. Installing it now.
 >NAME it-fse-gtw-config
@@ -40,8 +41,8 @@ helm upgrade --install it-fse-gtw-config it-fse-gtw-config-0.1.0.tgz --set "imag
 >REVISION: 1  
 >TEST SUITE: None
 
-## Remove the service:
-To remove the service that has been installed, run the following command:
+## Rimozione del Servizio:
+Per rimuovere il servizio appena installato, esegui il seguente comando:
 
 ```bash
 helm delete it-fse-gtw-config
