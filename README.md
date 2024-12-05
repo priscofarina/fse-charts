@@ -86,7 +86,7 @@ This downloads the package which can be used in the installation phase later.
 ---
 ## Service Installation Guide 
 
-- [*it-fse-gtw-config*](../it-fse-gtw-config/installation-guide.md)
+- [*it-fse-gtw-config*](it-fse-gtw-config/installation-guide.md)
 - [*it-fse-gtw-rules-manager*](https://github.com/ministero-salute/it-fse-gtw-rules-manager)
 - [*it-fse-gtw-dispatcher*](https://github.com/ministero-salute/it-fse-gtw-dispatcher)
 - [*it-fse-gtw-validator*](https://github.com/ministero-salute/it-fse-gtw-validator)
