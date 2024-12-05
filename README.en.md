@@ -90,17 +90,16 @@ This downloads the package which can be used in the installation phase later.
 ---
 ## Service Installation Guide 
 
-- [*it-fse-gtw-config*](it-fse-gtw-config/installation-guide.md)
-- [*it-fse-gtw-rules-manager*](https://github.com/ministero-salute/it-fse-gtw-rules-manager)
-- [*it-fse-gtw-dispatcher*](https://github.com/ministero-salute/it-fse-gtw-dispatcher)
-- [*it-fse-gtw-validator*](https://github.com/ministero-salute/it-fse-gtw-validator)
-- [*it-fse-gtw-fhir-mapping-engine*](https://github.com/ministero-salute/it-fse-gtw-fhir-mapping-engine)
-- [*it-fse-gtw-indexer*](https://github.com/ministero-salute/it-fse-gtw-indexer)
-- [*it-fse-gtw-ini-client*](https://github.com/ministero-salute/it-fse-gtw-ini-client)
-- [*it-fse-gtw-garbage*](https://github.com/ministero-salute/it-fse-gtw-garbage)
-- [*it-fse-gtw-status-check*](https://github.com/ministero-salute/it-fse-gtw-status-check)
-- [*it-fse-gtw-status-manager*](https://github.com/ministero-salute/it-fse-gtw-status-manager)
-- 
+1. [*it-fse-gtw-config*](it-fse-gtw-config/installation-guide.en.md)<br>
+2. [*it-fse-gtw-rules-manager*](it-fse-gtw-rules-manager/installation-guide.en.md)<br>
+3. [*it-fse-gtw-dispatcher*](it-fse-gtw-dispatcher/installation-guide.en.md)<br>
+4. [*it-fse-gtw-validator*](it-fse-gtw-validator/installation-guide.en.md)<br>
+5. [*it-fse-gtw-fhir-mapping-engine*](it-fse-gtw-fhir-mapping-engine/installation-guide.en.md)<br>
+6. [*it-fse-gtw-indexer*](it-fse-gtw-indexer/installation-guide.en.md)<br>
+7. [*it-fse-gtw-ini-client*](it-fse-gtw-ini-client/installation-guide.en.md)<br>
+8. [*it-fse-gtw-garbage*](it-fse-gtw-garbage/installation-guide.en.md)<br>
+9. [*it-fse-gtw-status-check*](it-fse-gtw-status-check/installation-guide.en.md)<br>
+10. [*it-fse-gtw-status-manager*](it-fse-gtw-status-manager/installation-guide.en.md)<br>
 ---
 
 ## Verify Resources
