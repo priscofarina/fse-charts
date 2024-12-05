@@ -87,17 +87,16 @@ Questo comando scarica il pacchetto che potrà essere utilizzato successivamente
 ---
 ## Guida all'installazione del servizio:
 
-- [*it-fse-gtw-config*](it-fse-gtw-config/installation-guide.md)
-- [*it-fse-gtw-rules-manager*](https://github.com/ministero-salute/it-fse-gtw-rules-manager)
-- [*it-fse-gtw-dispatcher*](https://github.com/ministero-salute/it-fse-gtw-dispatcher)
-- [*it-fse-gtw-validator*](https://github.com/ministero-salute/it-fse-gtw-validator)
-- [*it-fse-gtw-fhir-mapping-engine*](https://github.com/ministero-salute/it-fse-gtw-fhir-mapping-engine)
-- [*it-fse-gtw-indexer*](https://github.com/ministero-salute/it-fse-gtw-indexer)
-- [*it-fse-gtw-ini-client*](https://github.com/ministero-salute/it-fse-gtw-ini-client)
-- [*it-fse-gtw-garbage*](https://github.com/ministero-salute/it-fse-gtw-garbage)
-- [*it-fse-gtw-status-check*](https://github.com/ministero-salute/it-fse-gtw-status-check)
-- [*it-fse-gtw-status-manager*](https://github.com/ministero-salute/it-fse-gtw-status-manager)
-- 
+[*it-fse-gtw-config*](it-fse-gtw-config/installation-guide.md)
+[*it-fse-gtw-rules-manager*](it-fse-gtw-rules-manager/installation-guide.md)
+[*it-fse-gtw-dispatcher*](it-fse-gtw-dispatcher/installation-guide.md)
+[*it-fse-gtw-validator*](it-fse-gtw-validator/installation-guide.md)
+[*it-fse-gtw-fhir-mapping-engine*](it-fse-gtw-fhir-mapping-engine/installation-guide.md)
+[*it-fse-gtw-indexer*](it-fse-gtw-indexer/installation-guide.md)
+[*it-fse-gtw-ini-client*](it-fse-gtw-ini-client/installation-guide.md)
+[*it-fse-gtw-garbage*](it-fse-gtw-garbage/installation-guide.md)
+[*it-fse-gtw-status-check*](it-fse-gtw-status-check/installation-guide.md)
+[*it-fse-gtw-status-manager*](it-fse-gtw-status-manager/installation-guide.md)
 ---
 
 ## Verifica le Risorse create
