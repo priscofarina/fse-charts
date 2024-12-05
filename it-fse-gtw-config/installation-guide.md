@@ -1,6 +1,6 @@
-### How to Install the it-fse-gtw-config service
+# How to Install the it-fse-gtw-config service
 
-1. ### Create the ConfigMap
+## Create the ConfigMap
 
 Before installing the **it-fse-gtw-config-cm** service, you need to create a ConfigMap that contains the required configuration for the service. <br>
 This allows the service to use custom settings or environment variables needed during installation and runtime.
@@ -20,8 +20,7 @@ Verify the ConfigMap has been created successfully by running:
 kubectl get configmap it-fse-gtw-config-cm
 ```
 
-2. ### Install the Service
-
+## Install the Service
 Once the ConfigMap has been created, you can install the it-fse-gtw-config itself.
 
 To upgrade or install the service:
@@ -41,7 +40,9 @@ helm upgrade --install it-fse-gtw-config it-fse-gtw-config-0.1.0.tgz --set "imag
 >REVISION: 1  
 >TEST SUITE: None
 
-3. To remove the service installed so far:
+# Remove the service:
+To remove the service that has been installed, run the following command:
+
 ```bash
 helm delete it-fse-gtw-config
 ```
