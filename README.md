@@ -2,7 +2,7 @@
 
 # Services to be Installed
 
-Below is the list of each microservice that needs to be installed:
+Below the list of each microservice that needs to be installed:
 
 - [*it-fse-gtw-config*](https://github.com/ministero-salute/it-fse-gtw-config)
 - [*it-fse-gtw-rules-manager*](https://github.com/ministero-salute/it-fse-gtw-rules-manager)
@@ -18,6 +18,25 @@ Below is the list of each microservice that needs to be installed:
 # Steps to Install GTW
 
 ## Define the Secret on the Cluster
+
+```bash
+kubectl create secret docker-registry name-secret-registry --docker-server=registry-to-use --docker-username=userPull --docker-password=userPassword
+```
+
+**What it does:**
+This command creates a Kubernetes secret named name-secret-registry that contains Docker registry credentials.
+The secret will store the docker-server, docker-username, and docker-password, which are necessary for Kubernetes to authenticate and pull Docker images from a specified registry.
+
+**Breakdown of the command:**
+kubectl: The command-line tool used to interact with a Kubernetes cluster.
+create secret docker-registry: This creates a Docker registry secret that stores credentials for accessing a Docker registry.
+name-secret-registry: This is the name of the secret being created. In this case, the secret is named name-secret-registry.
+--docker-server=registry-to-use: Specifies the URL of the Docker registry to authenticate against (e.g., Docker Hub, a private registry, etc.). Replace registry-to-use with the actual URL of the registry (e.g., https://index.docker.io/v1/ or a private registry URL).
+--docker-username=userPull: The username used to authenticate with the Docker registry. Replace userPull with the actual username for accessing the registry.
+--docker-password=userPassword: The password associated with the specified Docker username (userPull). Replace userPassword with the actual password or access token.
+
+**Example of usage:**
+**The azregdevops secret will be used in the installation phase, but you can replace this value with the value you have chosen in the step of secret creation**
 
 ```bash
 kubectl create secret docker-registry azregdevops --docker-server=registry-to-use --docker-username=userPull --docker-password=userPassword
