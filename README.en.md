@@ -1,5 +1,5 @@
 # Multilanguage README Pattern
-[![it](https://img.shields.io/badge/lang-en-red.svg)](README.md)
+[![it](https://img.shields.io/badge/lang-it-green.svg)](README.md)
 
 
 # Fascicolo Sanitario 2.0
