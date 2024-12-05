@@ -99,7 +99,7 @@ Questo scarica il pacchetto che potrà essere utilizzato successivamente nella f
 - 
 ---
 
-## Verifica le Risore deployate
+## Verifica le Risorse create
 
 ### Pods
 
