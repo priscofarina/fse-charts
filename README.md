@@ -1,8 +1,8 @@
 # Fascicolo Sanitario 2.0
 
-# Services to be Installed
+# Servizi da Installare
 
-Below the list of each microservice that needs to be installed:
+Di seguito la lista dei servizi da installare:
 
 - [*it-fse-gtw-config*](https://github.com/ministero-salute/it-fse-gtw-config)
 - [*it-fse-gtw-rules-manager*](https://github.com/ministero-salute/it-fse-gtw-rules-manager)
@@ -15,30 +15,27 @@ Below the list of each microservice that needs to be installed:
 - [*it-fse-gtw-status-check*](https://github.com/ministero-salute/it-fse-gtw-status-check)
 - [*it-fse-gtw-status-manager*](https://github.com/ministero-salute/it-fse-gtw-status-manager)
 
-# Steps to Install GTW
+# Steps per Installare il Gateway Distribuito
 
-## Define the Secret on the Cluster
+## Definire il Secret nel Cluster
 
 ```bash
 kubectl create secret docker-registry name-secret-registry --docker-server=registry-to-use --docker-username=userPull --docker-password=userPassword
 ```
+Questo comando crea un secret in Kubernetes chiamato `name-secret-registry`, che contiene le credenziali per l'accesso al Docker registry.<br>
+Il secret memorizza il **docker-server**, **docker-username** e **docker-password**, informazioni necessarie a Kubernetes per autenticarsi e scaricare le immagini Docker dal registry specificato.<br>
 
-**What it does:**<br>
-This command creates a Kubernetes secret named name-secret-registry that contains Docker registry credentials.<br>
-The secret will store the **docker-server**, **docker-username**, and **docker-password**, which are necessary for Kubernetes to authenticate and pull Docker images from a specified registry.<be>
+### Analisi del Comando:
+- **kubectl**: La  command line utilizzata per interagire con un cluster Kubernetes.
+- **create secret docker-registry**: Crea un secret Docker registry che memorizza le credenziali per l'accesso a un Docker registry.
+- **name-secret-registry**: Questo è il nome del secret che viene creato. In questo caso, il secret si chiama `name-secret-registry`.
+- **--docker-server=registry-to-use**: Specifica l'URL del Docker registry con cui autenticarsi (ad esempio, Docker Hub, un registry privato, ecc.). Sostituisci `registry-to-use` con l'URL effettivo del registry (ad esempio, `https://index.docker.io/v1/` o l'URL di un registry privato).
+- **--docker-username=userPull**: Il nome utente utilizzato per l'autenticazione con il Docker registry. Sostituisci `userPull` con il nome utente effettivo per accedere al registry.
+- **--docker-password=userPassword**: La password associata al nome utente Docker specificato (`userPull`). Sostituisci `userPassword` con la password effettiva o con un token di accesso.
 
-
-### Breakdown of the Command:
-- **kubectl**: The command-line tool used to interact with a Kubernetes cluster.
-- **create secret docker-registry**: This creates a Docker registry secret that stores credentials for accessing a Docker registry.
-- **name-secret-registry**: This is the name of the secret being created. In this case, the secret is named `name-secret-registry`.
-- **--docker-server=registry-to-use**: Specifies the URL of the Docker registry to authenticate against (e.g., Docker Hub, a private registry, etc.). Replace `registry-to-use` with the actual URL of the registry (e.g., `https://index.docker.io/v1/` or a private registry URL).
-- **--docker-username=userPull**: The username used to authenticate with the Docker registry. Replace `userPull` with the actual username for accessing the registry.
-- **--docker-password=userPassword**: The password associated with the specified Docker username (`userPull`). Replace `userPassword` with the actual password or access token.
-
-**Example of usage:**<br>
-**[TO NOTICE]** <br>
-**The azregdevops secret will be used in the installation phase, but you can replace this value with the value you have chosen in the step of secret creation**
+**Esempio di utilizzo:**<br>
+**[DA NOTARE]** <br>
+**Il secret azregdevops verrà utilizzato durante la fase di installazione, ma puoi sostituire questo valore con quello che hai scelto durante la fase di creazione del secret**
 
 ```bash
 kubectl create secret docker-registry azregdevops --docker-server=registry-to-use --docker-username=userPull --docker-password=userPassword
@@ -46,7 +43,7 @@ kubectl create secret docker-registry azregdevops --docker-server=registry-to-us
 
 ## Helm Repository Management
 
-The following commands can be used to search for and retrieve a specific version of one of the services mentioned above:
+I seguenti comandi possono essere utilizzati per cercare e recuperare una versione specifica di uno dei servizi menzionati sopra:
 
 ```bash
 helm repo add fse https://ministero-salute.github.io/it-fse-gtw-helm
@@ -60,8 +57,10 @@ helm search repo fse/it-fse-gtw-rules-manager --versions
 | ...                         | ...           | ...         | ...                                      |
 
 The ```helm search``` can be used to fetch the latest version of each service.
-It is important to update the repository before performing the search with the following command:
 
+<br>
+
+È importante aggiornare il repository prima di eseguire la ricerca con il seguente comando:
 ```bash
 helm fetch repo fse/it-fse-gtw-rules-manager --versions
 ```
@@ -71,7 +70,7 @@ helm repo update fse
 ```
 
 
-**To download a specific version:**
+**Per scaricare una versione specifica:**
 ```bash
 helm fetch <nome-repo>/<nome-chart> --version <versione-chart> 
 ```
@@ -81,10 +80,11 @@ Example:
 ```bash
 helm fetch fse/it-fse-gtw-rules-manager --version 0.1.0
 ```
-This downloads the package which can be used in the installation phase later.
+Questo scarica il pacchetto che potrà essere utilizzato successivamente nella fase di installazione.
+
 
 ---
-## Service Installation Guide 
+## Guida all'installazione del servizio:
 
 - [*it-fse-gtw-config*](it-fse-gtw-config/installation-guide.md)
 - [*it-fse-gtw-rules-manager*](https://github.com/ministero-salute/it-fse-gtw-rules-manager)
@@ -99,7 +99,7 @@ This downloads the package which can be used in the installation phase later.
 - 
 ---
 
-## Verify Resources
+## Verifica le Risore deployate
 
 ### Pods
 
@@ -107,7 +107,7 @@ This downloads the package which can be used in the installation phase later.
 kubectl get pods
 ```
 
-Example output:
+Esempio di output:
 
 | NAME                                      | READY | STATUS  | RESTARTS | AGE |
 |-------------------------------------------|-------|---------|----------|-----|
@@ -119,7 +119,7 @@ Example output:
 kubectl get cm
 ```
 
-Example output:
+Esempio di output:
 
 | NAME                              | DATA | AGE |
 |-----------------------------------|------|-----|
@@ -145,7 +145,7 @@ kubectl get secrets
 kubectl get secrets
 ```
 
-Example output:
+Esempio di output:
 
 
 | NAME                     | TYPE                                | DATA | AGE  |
