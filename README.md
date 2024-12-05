@@ -56,7 +56,7 @@ helm search repo fse/it-fse-gtw-rules-manager --versions
 | fse/it-fse-gtw-rules-manager | 0.1.0         | xxx       | servizio del Fascicolo Sanitario Elettronico 2.0 |
 | ...                         | ...           | ...         | ...                                      |
 
-The ```helm search``` can be used to fetch the latest version of each service.
+Il comando ```helm search``` può essere utilizzato per recuperare l'ultima versione di ciascun servizio.
 
 <br>
 
@@ -75,12 +75,14 @@ helm repo update fse
 helm fetch <nome-repo>/<nome-chart> --version <versione-chart> 
 ```
 
-Example:
-**To download the 0.1.0 version listed from the search command for the it-fse-gtw-rules-manager service:**
+Esempio di utilizzo:
+** Per scaricare la versione 0.1.0 elencata dal comando di ricerca per il servizio it-fse-gtw-rules-manager: **
+
 ```bash
 helm fetch fse/it-fse-gtw-rules-manager --version 0.1.0
 ```
-Questo scarica il pacchetto che potrà essere utilizzato successivamente nella fase di installazione.
+
+Questo comando scarica il pacchetto che potrà essere utilizzato successivamente nella fase di installazione.
 
 
 ---
