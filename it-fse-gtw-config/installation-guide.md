@@ -20,7 +20,7 @@ Verify the ConfigMap has been created successfully by running:
 kubectl get configmap it-fse-gtw-config-cm
 ```
 
-2. Install the Service
+2. ### Install the Service
 
 Once the ConfigMap has been created, you can install the it-fse-gtw-config itself.
 
