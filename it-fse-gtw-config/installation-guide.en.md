@@ -1,4 +1,3 @@
-# Multilanguage README Pattern
 [![it](https://img.shields.io/badge/lang-it-green.svg)](installation-guide.md)
 
 # How to Install the it-fse-gtw-config service
