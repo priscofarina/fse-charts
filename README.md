@@ -1,7 +1,6 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README.en.md)
 
 
-
 # Fascicolo Sanitario 2.0
 
 # Servizi da Installare
@@ -31,15 +30,14 @@ Il secret memorizza il **docker-server**, **docker-username** e **docker-passwor
 
 ### Analisi del Comando:
 - **kubectl**: La  command line utilizzata per interagire con un cluster Kubernetes.
-- **create secret docker-registry**: Crea un secret Docker registry che memorizza le credenziali per l'accesso a un Docker registry.
+- **create secret docker-registry**: Crea un secret che memorizza le credenziali per l'accesso a un Docker registry.
 - **name-secret-registry**: Questo è il nome del secret che viene creato. In questo caso, il secret si chiama `name-secret-registry`.
 - **--docker-server=registry-to-use**: Specifica l'URL del Docker registry con cui autenticarsi (ad esempio, Docker Hub, un registry privato, ecc.). Sostituisci `registry-to-use` con l'URL effettivo del registry (ad esempio, `https://index.docker.io/v1/` o l'URL di un registry privato).
 - **--docker-username=userPull**: Il nome utente utilizzato per l'autenticazione con il Docker registry. Sostituisci `userPull` con il nome utente effettivo per accedere al registry.
 - **--docker-password=userPassword**: La password associata al nome utente Docker specificato (`userPull`). Sostituisci `userPassword` con la password effettiva o con un token di accesso.
 
 **Esempio di utilizzo:**<br>
-**[DA NOTARE]** <br>
-**Il secret azregdevops verrà utilizzato durante la fase di installazione, ma puoi sostituire questo valore con quello che hai scelto durante la fase di creazione del secret**
+<u>Il secret azregdevops verrà utilizzato durante la fase di installazione, ma puoi sostituire questo valore con quello che hai scelto durante la fase di creazione del secret</u>
 
 ```bash
 kubectl create secret docker-registry azregdevops --docker-server=registry-to-use --docker-username=userPull --docker-password=userPassword
