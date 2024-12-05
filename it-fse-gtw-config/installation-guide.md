@@ -1,6 +1,6 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](installation-guide.en.md)
 
-# Come Installare il Servizio it-fse-gtw-config
+# Come Installare il servizio it-fse-gtw-config
 
 ## Creazione della ConfigMap
 
@@ -35,9 +35,9 @@ helm upgrade --install it-fse-gtw-config it-fse-gtw-config-0.1.0.tgz --set "imag
 ```
 
 *Output:*
->Release "it-fse-gtw-rules-manager" does not exist. Installing it now.<br>
+>Release "it-fse-gtw-config" does not exist. Installing it now.<br>
 >NAME it-fse-gtw-config<br>
->LAST DEPLOYED: Fri Nov 29 11:05:42 2024  <br>
+>LAST DEPLOYED: Fri Nov 29 11:05:42 2024 <br>
 >NAMESPACE: default  <br>
 >STATUS: deployed  <br>
 >REVISION: 1  <br>
@@ -51,27 +51,6 @@ helm delete it-fse-gtw-config
 ```
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Rules Manager
 
 To create the configMap named **it-fse-gtw-rules-manager-cm** in the Kubernetes cluster required from the service:
