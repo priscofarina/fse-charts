@@ -1,6 +1,6 @@
 ### How to Install the it-fse-gtw-config service
 
-1. Create the ConfigMap
+1. ## Create the ConfigMap
 
 Before installing the **it-fse-gtw-config-cm** service, you need to create a ConfigMap that contains the required configuration for the service. <br>
 This allows the service to use custom settings or environment variables needed during installation and runtime.
