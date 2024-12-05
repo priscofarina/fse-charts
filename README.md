@@ -80,7 +80,7 @@ helm delete it-fse-gtw-config
 
 ### Rules Manager
 
-To create the configMap named it-fse-gtw-rules-manager-cm in the Kubernetes cluster required from the service:
+To create the configMap named **it-fse-gtw-rules-manager-cm** in the Kubernetes cluster required from the service:
 
 ```bash
 kubectl create configmap it-fse-gtw-rules-manager-cm --from-file=application.properties=path/al/file/application.properties --from-file=truststore.jks=path/al/file/truststore.jks
@@ -109,7 +109,7 @@ helm delete it-fse-gtw-rules-manager
 
 ### Dispatcher
 
-To create the configMap named it-fse-gtw-dispatcher-cm in the Kubernetes cluster required from the service:
+To create the configMap named **it-fse-gtw-dispatcher-cm** in the Kubernetes cluster required from the service:
 
 ```bash
 kubectl create configmap it-fse-gtw-dispatcher-cm --from-file=application.properties=config\application.properties --from-file=truststore.jks=config\truststore.jks
@@ -139,7 +139,7 @@ helm delete it-fse-gtw-dispatcher
 
 ### Validator
 
-To create the configMap named it-fse-gtw-validator-cm in the Kubernetes cluster required from the service:
+To create the configMap named **it-fse-gtw-validator-cm** in the Kubernetes cluster required from the service:
 
 ```bash
 kubectl create configmap it-fse-gtw-validator-cm --from-file=application.properties=config\application.properties --from-file=truststore.jks=config\truststore.jks
@@ -170,7 +170,7 @@ helm delete it-fse-gtw-validator
 
 ### FHIR
 
-To create the configMap named it-fse-gtw-fhir-mapping-engine-cm in the Kubernetes cluster required from the service:
+To create the configMap named **it-fse-gtw-fhir-mapping-engine-cm** in the Kubernetes cluster required from the service:
 
 ```bash
 kubectl create configmap it-fse-gtw-fhir-mapping-engine-cm --from-file=application.properties=config\application.properties
@@ -201,7 +201,7 @@ helm delete it-fse-gtw-fhir-mapping-engine
 
 ### Indexer
 
-To create the configMap named it-fse-gtw-indexer-cm in the Kubernetes cluster required from the service:
+To create the configMap named **it-fse-gtw-indexer-cm** in the Kubernetes cluster required from the service:
 
 ```bash
 kubectl create configmap it-fse-gtw-indexer-cm --from-file=application.properties=config\application.properties --from-file=truststore.jks=config\truststore.jks
@@ -231,7 +231,7 @@ helm delete it-fse-gtw-indexer
 
 ### Ini-client
 
-To create the configMap named it-fse-gtw-ini-client-cm in the Kubernetes cluster required from the service:
+To create the configMap named **it-fse-gtw-ini-client-cm** in the Kubernetes cluster required from the service:
 
 ```bash
 kubectl create configmap it-fse-gtw-ini-client-cm --from-file=application.properties=config\application.properties --from-file=truststore.jks=config\truststore.jks --from-file=S1GTW-INI.jks=config\S1GTW-INI.jks --from-file=A1GTW-INI.jks=config\A1GTW-INI.jks
@@ -262,7 +262,7 @@ helm delete it-fse-gtw-ini-client
 
 ### Garbage
 
-To create the configMap named it-fse-gtw-garbage-cm in the Kubernetes cluster required from the service:
+To create the configMap named **it-fse-gtw-garbage-cm** in the Kubernetes cluster required from the service:
 
 ```bash
 kubectl create configmap it-fse-gtw-garbage-cm --from-file=application.properties=config\application.properties
@@ -292,7 +292,7 @@ helm delete it-fse-gtw-garbage
 
 ### Status-check
 
-To create the configMap named it-fse-gtw-status-check-cm in the Kubernetes cluster required from the service:
+To create the configMap named **it-fse-gtw-status-check-cm** in the Kubernetes cluster required from the service:
 
 ```bash
 kubectl create configmap it-fse-gtw-status-check-cm --from-file=application.properties=config\application.properties
@@ -323,7 +323,7 @@ helm delete it-fse-gtw-status-check
 
 ### Status-manager
 
-To create the configMap named it-fse-gtw-status-manager-cm in the Kubernetes cluster required from the service:
+To create the configMap named **it-fse-gtw-status-manager-cm** in the Kubernetes cluster required from the service:
 
 ```bash
 kubectl create configmap it-fse-gtw-status-manager-cm --from-file=application.properties=config\application.properties --from-file=truststore.jks=config\truststore.jks
