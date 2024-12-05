@@ -56,7 +56,7 @@ helm search repo fse/it-fse-gtw-rules-manager --versions
 
 | Name                        | Chart Version | App Version | Description                              |
 |-----------------------------|---------------|-------------|------------------------------------------|
-| fse/it-fse-gtw-rules-manager | 0.1.0         | xxx       | servizio del Fascicolo Sanitario Elettronico |
+| fse/it-fse-gtw-rules-manager | 0.1.0         | xxx       | servizio del Fascicolo Sanitario Elettronico 2.0 |
 | ...                         | ...           | ...         | ...                                      |
 
 The ```helm search``` can be used to fetch the latest version of each service.
