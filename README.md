@@ -37,8 +37,7 @@ Il secret memorizza il **docker-server**, **docker-username** e **docker-passwor
 - **--docker-password=userPassword**: La password associata al nome utente Docker specificato (`userPull`). Sostituisci `userPassword` con la password effettiva o con un token di accesso.
 
 **Esempio di utilizzo:**<br>
-<u>Il secret azregdevops verrà utilizzato durante la fase di installazione, ma puoi sostituire questo valore con quello che hai scelto durante la fase di creazione del secret</u>
-
+__Il secret azregdevops verrà utilizzato durante la fase di installazione, ma puoi sostituire questo valore con quello che hai scelto durante la fase di creazione del secret__
 ```bash
 kubectl create secret docker-registry azregdevops --docker-server=registry-to-use --docker-username=userPull --docker-password=userPassword
 ```
